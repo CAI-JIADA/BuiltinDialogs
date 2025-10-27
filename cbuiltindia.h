@@ -23,7 +23,10 @@ private:
     QPushButton *pagePushBtn;
     QPushButton *progressPushBtn;
     QPushButton *printPushBtn;
+    QPushButton *setPushBtn;
+private slots://槽函數(slot)宣告
+    void doPushBtn();
 private slots:
-    //void doPushBtn
+    void doTextcolor();
 };
 #endif // CBUILTINDIA_H
